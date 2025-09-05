@@ -161,12 +161,12 @@ function __git.init
   abbr -a -- giX 		git rm -r --force --cached
 
   # Log (l)
-  abbr -a -- gl 		git log --topo-order --pretty=format:\(__git_log_medium_format\)
-  abbr -a -- gls 		git log --topo-order --stat --pretty=format:\(__git_log_medium_format\)
-  abbr -a -- gld 		git log --topo-order --stat --patch --full-diff --pretty=format:\(__git_log_medium_format\)
-  abbr -a -- glo 		git log --topo-order --pretty=format:\(__git_log_oneline_format\)
-  abbr -a -- glg 		git log --topo-order --graph --pretty=format:\(__git_log_oneline_format\)
-  abbr -a -- glb 		git log --topo-order --pretty=format:\(__git_log_brief_format\)
+  abbr -a -- gl 		git log --topo-order --pretty=format:\(__git.log_medium_format\)
+  abbr -a -- gls 		git log --topo-order --stat --pretty=format:\(__git.log_medium_format\)
+  abbr -a -- gld 		git log --topo-order --stat --patch --full-diff --pretty=format:\(__git.log_medium_format\)
+  abbr -a -- glo 		git log --topo-order --pretty=format:\(__git.log_oneline_format\)
+  abbr -a -- glg 		git log --topo-order --graph --pretty=format:\(__git.log_oneline_format\)
+  abbr -a -- glb 		git log --topo-order --pretty=format:\(__git.log_brief_format\)
   abbr -a -- glc 		git shortlog --summary --numbered
   abbr -a -- glS 		git log --show-signature
 
